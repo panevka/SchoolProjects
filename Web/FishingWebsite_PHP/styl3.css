@@ -1,0 +1,78 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,
+html {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+}
+
+#left,
+#right {
+  background-color: seagreen;
+  color: white;
+  /* interliniaa 150px */
+  height: 260px;
+  font-size: 160%;
+  line-height: 150px;
+}
+
+#left {
+  width: 75%;
+}
+
+#right {
+  text-align: right;
+  width: 25%; /* zapytac o szerokosci*/
+}
+
+main {
+  background-color: mintcream;
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: seagreen;
+  color: white;
+  width: 50%;
+  height: 70px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: mintcream;
+  color: seagreen;
+  padding: 15px;
+  line-height: 70px;
+}
+
+img {
+  box-shadow: 15px 15px 10px dimgray;
+}
+
+input,
+button {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  width: 30%;
+}
+
+#footers {
+  display: flex;
+}
