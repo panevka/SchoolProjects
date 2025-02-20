@@ -1,0 +1,111 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header,
+footer {
+  background-color: rgb(120, 0, 46);
+  text-align: left;
+  color: white;
+  padding: 5px;
+  font-size: 150%;
+  flex: 1;
+}
+
+menu {
+  flex: 2;
+  background-color: rgb(173, 20, 87);
+  margin: 0;
+  justify-items: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+}
+
+menu > div > a {
+  text-wrap: wrap;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  text-align: center;
+  align-content: center;
+}
+
+menu > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#left {
+  background-color: snow;
+  color: olivedrab;
+  flex: 3;
+  height: 322px;
+  text-align: left;
+}
+
+#right {
+  background-color: rgb(173, 20, 87);
+  height: 322px;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#samochod {
+  margin: 40px;
+  padding: 10px;
+  height: 50%;
+}
+
+#samochod:hover {
+  border: 1px dotted yellowgreen;
+}
+
+a {
+  padding: 0px 50px 0px 50px;
+  color: yellowgreen;
+}
+
+table {
+  width: 90%;
+  margin: 25px;
+}
+
+table,
+td,
+th {
+  border: 1px solid olivedrab;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 15px;
+}
+label {
+  text-align: left;
+}
+
+input,
+button {
+  width: 150px;
+  margin: 5px;
+}
