@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F5F5DC"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A52A2A"
+        android:padding="5dp"
+        android:text="Gra w kości. Autor: 000000000"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+
+        />
+
+    <Button
+        android:id="@+id/button_throw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="rzuć kośćmi"
+        android:contentDescription="Rzuć kośćmi"
+        android:backgroundTint="#D2691E"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dice_question"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:contentDescription="Pusta kostka"
+            android:id="@+id/dice1"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dice_question"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:contentDescription="Pusta kostka"
+            android:id="@+id/dice2"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dice_question"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:contentDescription="Pusta kostka"
+            android:id="@+id/dice3"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dice_question"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:id="@+id/dice4"
+            android:contentDescription="Pusta kostka"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dice_question"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:id="@+id/dice5"
+            android:contentDescription="Pusta kostka"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Wynik tego losowania: 0"
+        android:textColor="#544949"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/game_score"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Wynik gry: 0"
+        android:textColor="#544949"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/overall_score"
+        />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D2691E"
+        android:text="resetuj wynik"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+
+</LinearLayout>
