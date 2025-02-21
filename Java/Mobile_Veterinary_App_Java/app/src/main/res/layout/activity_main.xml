@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#90EE90"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wizyta u weterynarza"
+        android:id="@+id/text_Header"
+        android:background="#2E8B57"
+        android:padding="10dp"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imię i nazwisko właściciela"
+        android:id="@+id/input_OwnerData"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gatunek"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_Animals"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:id="@+id/layout_Age"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ile ma lat?"
+    android:layout_weight="1"
+    android:id="@+id/text_AgeQuestion"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="1"
+        android:id="@+id/text_AgeNumber"
+        />
+
+    <SeekBar
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="18"
+        android:id="@+id/seekbar_Age"
+        android:max="0"
+        />
+</LinearLayout>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Cel wizyty"
+       android:id="@+id/input_AppointmentReason"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cel wizyty"
+        android:id="@+id/input_Hour"
+        android:text="16:00"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_Confirm"
+        android:text="ok"
+        android:textAllCaps="true"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Summary"
+        />
+
+
+</LinearLayout>
