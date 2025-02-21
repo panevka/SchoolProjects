@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'Java/Mobile_Dice_App_Java/**' 
+  workflow_dispatch:
 
 jobs:
   build:
