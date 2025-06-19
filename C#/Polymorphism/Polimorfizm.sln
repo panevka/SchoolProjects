@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizm", "Polimorfizm\Polimorfizm.csproj", "{B965D00F-F3D7-428F-949D-1C9F72B0D88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizm2", "Polimorfizm2\Polimorfizm2.csproj", "{BE567486-19DE-4E25-8940-8F517CF31108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfizmZadanie", "PolimorfizmZadanie\PolimorfizmZadanie.csproj", "{1419F4AF-8AAA-48ED-9726-8C4F4B51073A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B965D00F-F3D7-428F-949D-1C9F72B0D88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B965D00F-F3D7-428F-949D-1C9F72B0D88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B965D00F-F3D7-428F-949D-1C9F72B0D88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B965D00F-F3D7-428F-949D-1C9F72B0D88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE567486-19DE-4E25-8940-8F517CF31108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE567486-19DE-4E25-8940-8F517CF31108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE567486-19DE-4E25-8940-8F517CF31108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE567486-19DE-4E25-8940-8F517CF31108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1419F4AF-8AAA-48ED-9726-8C4F4B51073A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1419F4AF-8AAA-48ED-9726-8C4F4B51073A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1419F4AF-8AAA-48ED-9726-8C4F4B51073A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1419F4AF-8AAA-48ED-9726-8C4F4B51073A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
