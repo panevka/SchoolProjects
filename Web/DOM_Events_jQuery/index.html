@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            background-color: lightblue;
+            border: 2px solid blue;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>jQuery</h1>
+
+    <div id="box" class="box"></div>
+
+    <button id="hideBtn">Schowaj</button>
+    <button id="showBtn">Pokaż</button>
+    <button id="toggleBtn">Przełącz</button>
+
+    <p id="text">Najedź na tekst, żeby zmienić kolor</p>
+
+    <button id="clickBtn">Kliknij mnie</button>
+
+    <script>
+        $(document).ready(function () {
+            $('#hideBtn').click(function () {
+                $('#box').hide();
+            });
+
+            $('#showBtn').click(function () {
+                $('#box').show();
+            });
+
+            $('#toggleBtn').click(function () {
+                $('#box').toggle();
+            });
+
+            $('#text').hover(
+                function () {
+                    $(this).css('color', 'red');
+                },
+                function () {
+                    $(this).css('color', 'black');
+                }
+            );
+
+            $('#clickBtn').click(function () {
+                alert('Naciśnięto przycisk!');
+            });
+        });
+    </script>
+</body>
+</html>
