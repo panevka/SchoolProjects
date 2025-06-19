@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.krajobrazy {
+  width: 150px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lewo,
+.prawo {
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
